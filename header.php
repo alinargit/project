@@ -21,7 +21,7 @@ if(isset($message)){
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <p> new <a href="login.php">login</a> | <a href="register.php">register</a> </p>
+         <p> New <a href="login.php">Login</a> | <a href="register.php">Register</a> </p>
       </div>
    </div>
 
@@ -30,11 +30,11 @@ if(isset($message)){
          <a href="home.php" class="logo">Trendora.</a>
 
          <nav class="navbar">
-            <a href="home.php">home</a>
-            <a href="about.php">about</a>
-            <a href="shop.php">shop</a>
-            <a href="contact.php">contact</a>
-            <a href="orders.php">orders</a>
+            <a href="home.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="shop.php">Shop</a>
+            <a href="contact.php">Contact</a>
+            <a href="orders.php">Orders</a>
          </nav>
 
          <div class="icons">
@@ -49,9 +49,9 @@ if(isset($message)){
          </div>
 
          <div class="user-box">
-            <p>username : <span><?php echo $_SESSION['user_name']; ?></span></p>
-            <p>email : <span><?php echo $_SESSION['user_email']; ?></span></p>
-            <a href="logout.php" class="delete-btn">logout</a>
+            <p>Username : <span><?php echo $_SESSION['user_name']; ?></span></p>
+            <p>Email : <span><?php echo $_SESSION['user_email']; ?></span></p>
+            <a href="logout.php" class="delete-btn">Logout</a>
          </div>
       </div>
    </div>

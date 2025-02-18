@@ -33,12 +33,12 @@ if(!isset($user_id)){
 
 <div class="heading">
    <h3>your orders</h3>
-   <p> <a href="home.php">home</a> / orders </p>
+   <p> <a href="home.php">Home</a> / Orders </p>
 </div>
 
 <section class="placed-orders">
 
-   <h1 class="title">placed orders</h1>
+   <h1 class="title">Placed Orders</h1>
 
    <div class="box-container">
 
@@ -61,7 +61,7 @@ if(!isset($user_id)){
       <?php
        }
       }else{
-         echo '<p class="empty">no orders placed yet!</p>';
+         echo '<p class="empty">No orders placed yet!</p>';
       }
       ?>
    </div>

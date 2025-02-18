@@ -36,7 +36,7 @@ if(isset($_POST['add_to_cart'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>home</title>
+   <title>Home</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -52,7 +52,7 @@ if(isset($_POST['add_to_cart'])){
 <section class="home">
 
    <div class="content">
-      <h3>Hand Picked Book to your door.</h3>
+      <h3>Elevate Your Wardrobe, Elevate Your Life.</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
       <a href="about.php" class="white-btn">discover more</a>
    </div>
@@ -99,12 +99,12 @@ if(isset($_POST['add_to_cart'])){
    <div class="flex">
 
       <div class="image">
-         <img src="images/about-img.jpg" alt="">
+         <img src="images/about-bg.jpg" alt="">
       </div>
 
       <div class="content">
-         <h3>about us</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
+         <h3>About Us</h3>
+         <p>Hi! I'm the creative mind behind Trendora, where fashion meets individuality. I’m passionate about curating stylish, high-quality pieces that let you express yourself effortlessly. With an eye for trends and a love for unique designs, I strive to bring you the best in fashion while ensuring a seamless shopping experience. Thanks for being part of this journey—I can’t wait to see how you style our pieces!</p>
          <a href="about.php" class="btn">read more</a>
       </div>
 
@@ -128,7 +128,6 @@ if(isset($_POST['add_to_cart'])){
 
 <?php include 'footer.php'; ?>
 
-<!-- custom js file link  -->
 <script src="js/script.js"></script>
 
 </body>

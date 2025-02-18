@@ -56,7 +56,7 @@ if(isset($_GET['delete_all'])){
 
 <section class="shopping-cart">
 
-   <h1 class="title">products added</h1>
+   <h1 class="title">Products added</h1>
 
    <div class="box-container">
       <?php
@@ -81,7 +81,7 @@ if(isset($_GET['delete_all'])){
       $grand_total += $sub_total;
          }
       }else{
-         echo '<p class="empty">your cart is empty</p>';
+         echo '<p class="empty">Your cart is empty</p>';
       }
       ?>
    </div>
